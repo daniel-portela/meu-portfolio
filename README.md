@@ -7,7 +7,7 @@ Portfólio Daniel Portela
 <a href="https://danielportela.netlify.app/"><strong>Demonstração ao vivo</strong></a>
 </div>
 
-![alt text](preview.jpg)
+![preview](https://github.com/daniel-portela/meu-portfolio/assets/110783805/7b23c18b-45f2-4b6a-b74e-a9a1e111759f)
 
 👨🏼‍💻 <b>Tecnologias utilizadas:</b>
 
