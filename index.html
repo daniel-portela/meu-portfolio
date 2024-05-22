@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Portela - Portfólio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body id="top" class="dark_theme">
+  <header class="header" data-header>
+    <div class="container">
+      <h1 class="h1 logo">
+        <a href="#">Daniel Portela</a>
+      </h1>
+
+      <div class="navbar-actions">
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li>
+            <a href="#top" class="navbar-link">Início</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link">Sobre</a>
+          </li>
+          <li>
+            <a href="#skills" class="navbar-link">Habilidades</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfólio</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <section class="about" id="about">
+        <figure class="about-banner">
+          <img src="./assets/images/perfil.jpg" alt="Minha foto de perfil" class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+          <p class="section-subtitle">Sobre mim</p>
+          <h2 class="h3 section-title">Desenvolvedor Front-end especializado em Web Design e UI UX Design</h2>
+          <p class="section-text">
+            Sou um Desenvolvedor Front-end especializado em HTML5, CSS3, JavaScript, React JS, Git/Github, SASS/SCSS,
+            Bootstrap,
+            Tailwind CSS, Node.js, Figma, AWS e Webpack. Tenho conhecimentos técnicos em Web Design e UX/UI Design. No
+            momento, estou
+            me aperfeiçoando em consumo de API's, TypeScript e Banco de dados para construir projetos inovadores e
+            aplicar
+            minhas
+            habilidades,
+            contribuindo com a melhoria dos projetos, segurança e resultados da empresa.
+          </p>
+
+          <div class="btn-group">
+            <a href="https://wa.me/77999408643" target="_blank" rel="noopener noreferrer"><button
+                class="btn btn-secondary">Contratar</button></a>
+            <a href="https://drive.google.com/file/d/1wMB6qFS1n0aJpALYUDCuWdI74bC9nCRw/view?usp=sharing"
+              target="_blank"><button class="btn btn-primary">Download cv</button></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+          <li>
+            <a href="#/" class="stats-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+              <h2 class="h2 card-title">
+                2+ <strong>Anos de experiência</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/daniel-portela?tab=repositories" class="stats-card" target="_blank">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+              <h2 class="h2 card-title">
+                60+ <strong>Projetos completos</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://danielportelati.com/portfolio/" class="stats-card" target="_blank">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+              <h2 class="h2 card-title">
+                5+ <strong>Trabalhos realizados</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skills-content section-content">
+          <p class="section-subtitle">Minhas habilidades</p>
+          <h2 class="h3 section-title">Quais são minhas habilidades de programação incluídas?</h2>
+          <p class="section-text">
+            Desenvolvo uma interface de usuário simples, intuitiva e responsiva que ajuda os usuários a realizar tarefas
+            com menos
+            esforço e tempo com essas tecnologias.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Tecnologias</button>
+            <button class="toggle-btn" data-toggle-btn>Ferramentas</button>
+          </div>
+        </div>
+
+        <div class="skills-box" data-skills-box>
+          <ul class="skills-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Tailwind CSS</div>
+                <div class="card-icon">
+                  <img src="./assets/images/tailwind.png" alt="Tailwind logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Node.js</div>
+                <div class="card-icon">
+                  <img src="./assets/images/node.png" alt="Node.js logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Banco de dados</div>
+                <div class="card-icon">
+                  <img src="./assets/images/database.png" alt="Banco de dados logo">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="tools-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Github</div>
+                <div class="card-icon">
+                  <img src="./assets/images/github.png" alt="Github logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">WordPress</div>
+                <div class="card-icon">
+                  <img src="./assets/images/wordpress.png" alt="WordPress logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Elementor</div>
+                <div class="card-icon">
+                  <img src="./assets/images/elementor.png" alt="Elementor logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+                <div class="card-icon">
+                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Illustrator</div>
+                <div class="card-icon">
+                  <img src="./assets/images/illustrator.png" alt="Illustrator logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Figma</div>
+                <div class="card-icon">
+                  <img src="./assets/images/figma.png" alt="Figma logo">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="project" id="portfolio">
+        <ul class="project-list">
+          <li>
+            <div class="project-content section-content">
+              <p class="section-subtitle">Meus projetos</p>
+              <h2 class="h3 section-title">Veja meus trabalhos que vão surpreender você!</h2>
+              <p class="section-text">
+                Desenvolvo projetos, sites e sistemas da melhor qualidade possível, pensando sempre a longo prazo.
+                Interface bem documentada, limpa,
+                fácil e elegante
+                ajuda qualquer pessoa não técnico a entender perfeitamente toda a estrutura.
+              </p>
+              <a href="https://github.com/daniel-portela?tab=repositories" target="_blank"
+                rel="noopener noreferrer"><button class="btn btn-secondary">Repositórios</button></a>
+            </div>
+          </li>
+
+          <li>
+            <a href="https://pagebudget.netlify.app/" class="project-card" target="_blank">
+              <figure class="card-banner">
+                <img src="./assets/images/orcamento.jpg" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Página de Orçamento</h3>
+                <time class="publish-date" datetime="2022-04">HTML, CSS e JavaScript</time>
+              </div>
+            </a>
+            <div class="card-links">
+              <a href="https://github.com/daniel-portela/budget-page" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://pagebudget.netlify.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+          </li>
+
+          <li>
+            <a href="https://bancodedadosjs.netlify.app/" class="project-card" target="_blank">
+              <figure class="card-banner">
+                <img src="./assets/images/bancodedados.jpg" class="w-100"
+                  alt="Projeto de sistemas de consulta de banco de dados">
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Banco de dados</h3>
+                <time class="publish-date" datetime="2022-04">HTML, CSS e JavaScript</time>
+              </div>
+            </a>
+            <div class="card-links">
+              <a href="https://github.com/daniel-portela/consulta-banco-de-dados" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://bancodedadosjs.netlify.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+          </li>
+
+          <li>
+            <a href="https://juremahotel.netlify.app/" class="project-card" target="_blank">
+              <figure class="card-banner">
+                <img src="./assets/images/hotel-jurema.jpg" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Hotel Jurema</h3>
+                <time class="publish-date" datetime="2022-04">HTML, CSS e JavaScript</time>
+              </div>
+            </a>
+            <div class="card-links">
+              <a href="https://github.com/daniel-portela/hotel-Jurema-website" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://juremahotel.netlify.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+          </li>
+
+          <li>
+            <a href="https://digital-marketing-agency-lovat.vercel.app/" class="project-card" target="_blank">
+              <figure class="card-banner">
+                <img src="./assets/images/agency.jpg" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Digital Marketing Agency</h3>
+                <time class="publish-date" datetime="2022-04">React</time>
+              </div>
+            </a>
+            <div class="card-links">
+              <a href="https://github.com/daniel-portela/digital-marketing-agency" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://digital-marketing-agency-lovat.vercel.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+          </li>
+
+          <li>
+            <a href="https://apptaskbuddy.netlify.app/" class="project-card" target="_blank">
+              <figure class="card-banner">
+                <img src="./assets/images/taskbuddy.jpg" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Aplicativo de Tarefas</h3>
+                <time class="publish-date" datetime="2022-04">HTML, CSS e JavaScript</time>
+              </div>
+            </a>
+            <div class="card-links">
+              <a href="https://github.com/daniel-portela/taskbuddy" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://apptaskbuddy.netlify.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+          </li>
+
+          <li>
+            <a href="https://apisuperhero.netlify.app/" class="project-card" target="_blank">
+              <figure class="card-banner">
+                <img src="./assets/images/super-hero-api.jpg" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+                </div>
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Super Heróis API</h3>
+                <time class="publish-date" datetime="2022-04">HTML, CSS e JavaScript</time>
+              </div>
+            </a>
+            <div class="card-links">
+              <a href="https://github.com/daniel-portela/projeto-api" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://apisuperhero.netlify.app/" target="_blank">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-content section-content">
+          <p class="section-subtitle">Contato</p>
+          <h2 class="h3 section-title">Você tem algum projeto ou sistema em execução? Eu posso colaborar!</h2>
+          <p class="section-text">
+            Gostaria de explorar como posso contribuir para o sucesso da sua empresa? Minhas habilidades e experiências
+            podem agregar valor ao seu negócio. Estou ansioso para colaborar com você e sua equipe!
+          </p>
+
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Endereço:</h3>
+                <address class="contact-info">
+                  Oliveira dos Brejinhos, BA
+                </address>
+              </div>
+            </li>
+
+            <li class="contact-list-item">
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Telefone:</h3>
+                <a href="tel:+5577999408643" class="contact-info">(77) 999408643</a>
+              </div>
+            </li>
+
+            <li class="contact-list-item">
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">E-mail:</h3>
+                <a href="mailto:danielportela.ti@gmail.com" class="contact-info">danielportela.ti@gmail.com</a>
+              </div>
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+                <li>
+                  <a href="https://www.linkedin.com/in/danielportelati/" class="contact-social-link" target="_blank">
+                    <div class="tooltip">LinkedIn</div>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/daniel-portela" class="contact-social-link" target="_blank">
+                    <div class="tooltip">Github</div>
+                    <ion-icon name="logo-Github"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://wa.me/77999408643" class="contact-social-link" target="_blank">
+                    <div class="tooltip">WhatsApp</div>
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/danielportela__/" class="contact-social-link" target="_blank">
+                    <div class="tooltip">Instagram</div>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://danielportelati.com" class="contact-social-link" target="_blank">
+                    <div class="tooltip">Site</div>
+                    <ion-icon name="link"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <form action="" class="contact-form">
+          <div class="form-wrapper">
+            <label for="name" class="form-label">Nome</label>
+            <div class="input-wrapper">
+              <input type="text" name="name" id="name" required placeholder="Digite seu nome" class="input-field">
+              <ion-icon name="person-circle"></ion-icon>
+            </div>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="email" class="form-label">E-mail</label>
+            <div class="input-wrapper">
+              <input type="email" name="email" id="email" required placeholder="Digite seu email" class="input-field">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="phone" class="form-label">Telefone</label>
+            <div class="input-wrapper">
+              <input type="tel" name="phone" id="phone" required placeholder="Telefone" class="input-field">
+              <ion-icon name="call"></ion-icon>
+            </div>
+          </div>
+
+          <div class="form-wrapper">
+            <label for="message" class="form-label">Mensagem</label>
+            <div class="input-wrapper">
+              <textarea name="message" id="message" required placeholder="Digite sua mensagem..."
+                class="input-field"></textarea>
+              <ion-icon name="chatbubbles"></ion-icon>
+            </div>
+          </div>
+          <a href="mailto:danielportela.ti@gmail.com"><button type="submit" class="btn btn-primary">Enviar</button></a>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="h1 logo">
+        <a href="#top">
+          Daniel Portela
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2024 <a href="https://www.linkedin.com/in/danielportelati/" target="_blank">Daniel Portela</a>. Todos os
+        direitos
+        reservados
+      </p>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
