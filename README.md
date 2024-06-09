@@ -1,10 +1,8 @@
 <div align="center">
 
-Portfólio Daniel Portela
+Portfólio <a href="https://danielportela.netlify.app/">Daniel Portela</a>
 
 <p>Você pode visualizar meu portfólio online aqui e explorar todos os recursos e funcionalidades implementados. Por favor, note que este projeto não é destinado a ser clonado. No entanto, sinta-se à vontade para examinar o código-fonte para aprender e se inspirar em suas próprias criações.</p>
-
-<a href="https://danielportela.netlify.app/"><strong>Demonstração ao vivo</strong></a>
 </div>
 
 ![preview](https://github.com/daniel-portela/meu-portfolio/assets/110783805/7b23c18b-45f2-4b6a-b74e-a9a1e111759f)
@@ -40,7 +38,7 @@ Meu portfólio apresenta um layout intuitivo e responsivo, garantindo uma experi
 
 Este projeto está sob [LICENSE](LICENSE), o que significa que você não tem permissão para usar, modificar e distribuir o código conforme desejar, desde que mantenha o aviso de direitos autorais e a licença. Contudo, se você encontrar bugs, tiver sugestões de melhorias ou quiser contribuir de alguma forma, ficarei feliz em receber seu feedback.
 
-<b>Contato:</b>
+✉️ <b>Contato:</b>
 
 Se você tiver alguma dúvida, sugestão ou interesse em colaborar, não hesite em me contatar.
 
