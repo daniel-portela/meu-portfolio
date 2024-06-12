@@ -5,7 +5,7 @@ Portfólio <a href="https://danielportela.netlify.app/">Daniel Portela</a>
 <p>Você pode visualizar meu portfólio online aqui e explorar todos os recursos e funcionalidades implementados. Por favor, note que este projeto não é destinado a ser clonado. No entanto, sinta-se à vontade para examinar o código-fonte para aprender e se inspirar em suas próprias criações.</p>
 </div>
 
-![preview](https://github.com/daniel-portela/meu-portfolio/assets/110783805/7b23c18b-45f2-4b6a-b74e-a9a1e111759f)
+![Daniel Portela](readme-images/preview.jpg)
 
 👨🏼‍💻 <b>Tecnologias utilizadas:</b>
 
