@@ -132,7 +132,8 @@
           <p class="section-subtitle">Minhas habilidades</p>
           <h2 class="h3 section-title">Quais são minhas habilidades de programação incluídas?</h2>
           <p class="section-text">
-            Desenvolvo uma interface de usuário simples, intuitiva e responsiva utilizando React, TypeScript, Angular e Bootstrap.
+            Desenvolvo uma interface de usuário simples, intuitiva e responsiva utilizando React, TypeScript, Angular e
+            Bootstrap.
             Tenho
             experiência na criação de componentes reutilizáveis, integração de APIs, gerenciamento de estado com Redux e
             otimização de desempenho. Além disso, sou proficiente em preprocessadores como SASS,
@@ -371,12 +372,22 @@
               </div>
             </a>
             <div class="card-links">
-              <a href="https://github.com/daniel-portela/budget-page" target="_blank" title="ver explicação">
+              <a href="https://github.com/daniel-portela/budget-page" target="_blank" title="ver código">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://pagebudget.netlify.app/" target="_blank" title="vizualizar">
+              <a href="https://pagebudget.netlify.app/" target="_blank" title="visualizar">
                 <i class="fas fa-external-link-alt"></i>
               </a>
+              <a href="#/" onclick="openPopup('page-budget')" title="detalhes">
+                <i class="fas fa-info-circle"></i>
+              </a>
+            </div>
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <div id="project-description"></div>
+              </div>
+            </div>
           </li>
 
           <li>
@@ -399,6 +410,16 @@
               <a href="https://cotacaoapiclient.netlify.app/" target="_blank" title="vizualizar">
                 <i class="fas fa-external-link-alt"></i>
               </a>
+              <a href="#/" onclick="openPopup('interface-api')" title="detalhes">
+                <i class="fas fa-info-circle"></i>
+              </a>
+              </div>
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup()">&times;</span>
+                  <div id="project-description"></div>
+                </div>
+              </div>
           </li>
 
           <li>
@@ -410,16 +431,27 @@
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">Dashboard Horizon</h3>
-                <time class="publish-date" datetime="2022-04">React + Styled Components + Vite</time>
+                <time class="publish-date" datetime="2022-04">React + Styled Components + Redux</time>
               </div>
             </a>
             <div class="card-links">
-              <a href="https://github.com/daniel-portela/horizon-dashboard-react" target="_blank" title="ver explicação">
+              <a href="https://github.com/daniel-portela/horizon-dashboard-react" target="_blank"
+                title="ver explicação">
                 <i class="fab fa-github"></i>
               </a>
               <a href="https://horizon-dashboard-react.vercel.app/" target="_blank" title="vizualizar">
                 <i class="fas fa-external-link-alt"></i>
               </a>
+              <a href="#/" onclick="openPopup('horizon-dashboard')" title="detalhes">
+                <i class="fas fa-info-circle"></i>
+              </a>
+              </div>
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup()">&times;</span>
+                  <div id="project-description"></div>
+                </div>
+              </div>
           </li>
 
           <li>
@@ -442,6 +474,16 @@
               <a href="https://digital-marketing-agency-lovat.vercel.app/" target="_blank" title="vizualizar">
                 <i class="fas fa-external-link-alt"></i>
               </a>
+              <a href="#/" onclick="openPopup('digital-marketing-agency')" title="detalhes">
+                <i class="fas fa-info-circle"></i>
+              </a>
+              </div>
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup()">&times;</span>
+                  <div id="project-description"></div>
+                </div>
+              </div>
           </li>
 
           <li>
@@ -463,6 +505,16 @@
               <a href="https://apptaskbuddy.netlify.app/" target="_blank" title="vizualizar">
                 <i class="fas fa-external-link-alt"></i>
               </a>
+              <a href="#/" onclick="openPopup('taskbuddy')" title="detalhes">
+                <i class="fas fa-info-circle"></i>
+              </a>
+              </div>
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup()">&times;</span>
+                  <div id="project-description"></div>
+                </div>
+              </div>
           </li>
 
           <li>
@@ -484,6 +536,16 @@
               <a href="https://apisuperhero.netlify.app/" target="_blank" title="vizualizar">
                 <i class="fas fa-external-link-alt"></i>
               </a>
+              <a href="#/" onclick="openPopup('super-hero-api')" title="detalhes">
+                <i class="fas fa-info-circle"></i>
+              </a>
+              </div>
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup()">&times;</span>
+                  <div id="project-description"></div>
+                </div>
+              </div>
           </li>
         </ul>
       </section>
