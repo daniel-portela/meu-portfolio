@@ -66,3 +66,61 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+const projectDescriptions = {
+  "page-budget": `
+  <h2>Detalhes do projeto</h2><br>
+    Você pode inserir o valor total do seu orçamento na caixa de entrada correspondente e clicar no botão "Definir orçamento".
+    O valor do orçamento é exibido na seção de "Totalizando" e é usado para calcular o saldo restante.
+    Para adicionar uma despesa, insira o título do produto e seu custo na seção "Despesas" e clique no botão "Verificar o valor".
+    As despesas adicionadas são exibidas na lista de despesas abaixo, com opções para editar ou excluir cada entrada.
+    O saldo restante é atualizado automaticamente conforme você adiciona ou remove despesas. Isso permite que você acompanhe
+    facilmente quanto dinheiro ainda está disponível dentro do seu orçamento.
+  `,
+  "interface-api": `
+  <h2>Detalhes do projeto</h2><br>
+    Este projeto é uma interface de consulta de banco de dados que utiliza uma API para buscar dados em tempo real.
+    A interface é simples e intuitiva, permitindo que o usuário pesquise e filtre os dados com facilidade.
+    O design é responsivo e se adapta a diferentes tamanhos de tela, oferecendo uma experiência de usuário consistente.
+  `,
+  "horizon-dashboard": `
+  <h2>Detalhes do projeto</h2><br>
+    O Horizon Dashboard é uma aplicação React que utiliza Styled Components e Vite para uma experiência rápida e modular.
+    O dashboard permite a visualização de dados analíticos de forma clara e organizada, com gráficos interativos e personalizáveis.
+    A estrutura modular do código facilita a manutenção e a adição de novas funcionalidades.
+  `,
+  "digital-marketing-agency": `
+  <h2>Detalhes do projeto</h2><br>
+    Este é um site de uma agência de marketing digital desenvolvido em React. O site apresenta os serviços oferecidos pela agência,
+    além de incluir seções de portfólio e contato. A interface é moderna, com um design limpo e foco em usabilidade.
+  `,
+  "taskbuddy": `
+  <h2>Detalhes do projeto</h2><br>
+    O aplicativo de tarefas TaskBuddy foi desenvolvido com HTML, CSS e JavaScript. Ele permite que os usuários criem, editem e
+    excluam tarefas de forma simples e intuitiva. As tarefas são organizadas em uma lista, e o usuário pode marcar como concluídas
+    ou excluir tarefas conforme necessário.
+  `,
+  "super-hero-api": `
+  <h2>Detalhes do projeto</h2><br>
+    Este projeto é uma interface de consulta para a API de super-heróis. O usuário pode buscar informações sobre seus super-heróis
+    favoritos, incluindo poderes, habilidades e histórico. A interface é interativa e fácil de usar, permitindo uma navegação
+    fluida e rápida entre as informações dos personagens.
+  `
+};
+
+function openPopup(projectId) {
+  const popup = document.getElementById("popup");
+  const descriptionElement = document.getElementById("project-description");
+
+  descriptionElement.innerHTML = projectDescriptions[projectId];
+
+  popup.style.display = "block";
+  document.body.style.overflow = "hidden";
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+  document.body.style.overflow = "";
+}
+
+
