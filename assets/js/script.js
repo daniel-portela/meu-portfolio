@@ -89,10 +89,15 @@ const projectDescriptions = {
     O dashboard permite a visualização de dados analíticos de forma clara e organizada, com gráficos interativos e personalizáveis.
     A estrutura modular do código facilita a manutenção e a adição de novas funcionalidades.
   `,
-  "digital-marketing-agency": `
+  "novabank-typescript": `
   <h2>Detalhes do projeto</h2><br>
-    Este é um site de uma agência de marketing digital desenvolvido em React. O site apresenta os serviços oferecidos pela agência,
-    além de incluir seções de portfólio e contato. A interface é moderna, com um design limpo e foco em usabilidade.
+    O NovaBank é um projeto que simula as operações básicas de um banco, com funcionalidades como gerenciamento de contas, transações e formatação de dados de transação. O projeto contará com o desenvolvimento de:
+Classe conta e armazenador;
+Atributos e construtor de conta;
+Modificadores de acesso;
+Métodos estáticos;
+Herança de classes;
+Decorators de validação.
   `,
   "taskbuddy": `
   <h2>Detalhes do projeto</h2><br>
