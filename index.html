@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -269,6 +269,15 @@
 
             <li>
               <div class="skill-card">
+                <div class="tooltip">Gitlab</div>
+                <div class="card-icon">
+                  <img src="./assets/images/gitlab.png" alt="Gitlab logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
                 <div class="tooltip">Webpack</div>
                 <div class="card-icon">
                   <img src="./assets/images/webpack.png" alt="Webpack logo">
@@ -413,13 +422,13 @@
               <a href="#/" onclick="openPopup('interface-api')" title="detalhes">
                 <i class="fas fa-info-circle"></i>
               </a>
+            </div>
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <div id="project-description"></div>
               </div>
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                  <span class="close" onclick="closePopup()">&times;</span>
-                  <div id="project-description"></div>
-                </div>
-              </div>
+            </div>
           </li>
 
           <li>
@@ -445,45 +454,43 @@
               <a href="#/" onclick="openPopup('horizon-dashboard')" title="detalhes">
                 <i class="fas fa-info-circle"></i>
               </a>
+            </div>
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <div id="project-description"></div>
               </div>
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                  <span class="close" onclick="closePopup()">&times;</span>
-                  <div id="project-description"></div>
-                </div>
-              </div>
+            </div>
           </li>
 
           <li>
-            <a href="https://digital-marketing-agency-lovat.vercel.app/" class="project-card" target="_blank">
+            <a href="https://www.youtube.com/watch?v=--g6Hjv-Bq8" class="project-card" target="_blank">
               <figure class="card-banner">
-                <img src="./assets/images/agency.jpg" class="w-100"
-                  alt="A fujifilm instant camera on a dark electric blue background.">
+                <img src="./assets/images/novabank.png" class="w-100" alt="Projeto typescript novabank.">
                 </div>
               </figure>
               <div class="card-content">
-                <h3 class="h4 card-title">Site Digital Marketing Agency</h3>
-                <time class="publish-date" datetime="2022-04">React</time>
+                <h3 class="h4 card-title">Novabank TypeScript</h3>
+                <time class="publish-date" datetime="2024-09">HTML5, CSS3 e TypeScript</time>
               </div>
             </a>
             <div class="card-links">
-              <a href="https://github.com/daniel-portela/digital-marketing-agency" target="_blank"
-                title="ver explicação">
+              <a href="https://github.com/daniel-portela/novabank-typescript" target="_blank" title="ver explicação">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://digital-marketing-agency-lovat.vercel.app/" target="_blank" title="vizualizar">
-                <i class="fas fa-external-link-alt"></i>
+              <a href="https://www.youtube.com/watch?v=--g6Hjv-Bq8" target="_blank" title="vizualizar">
+                <i class="fab fa-youtube"></i>
               </a>
-              <a href="#/" onclick="openPopup('digital-marketing-agency')" title="detalhes">
+              <a href="#/" onclick="openPopup('novabank-typescript')" title="detalhes">
                 <i class="fas fa-info-circle"></i>
               </a>
+            </div>
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <div id="project-description"></div>
               </div>
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                  <span class="close" onclick="closePopup()">&times;</span>
-                  <div id="project-description"></div>
-                </div>
-              </div>
+            </div>
           </li>
 
           <li>
@@ -508,13 +515,13 @@
               <a href="#/" onclick="openPopup('taskbuddy')" title="detalhes">
                 <i class="fas fa-info-circle"></i>
               </a>
+            </div>
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <div id="project-description"></div>
               </div>
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                  <span class="close" onclick="closePopup()">&times;</span>
-                  <div id="project-description"></div>
-                </div>
-              </div>
+            </div>
           </li>
 
           <li>
@@ -539,13 +546,13 @@
               <a href="#/" onclick="openPopup('super-hero-api')" title="detalhes">
                 <i class="fas fa-info-circle"></i>
               </a>
+            </div>
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <div id="project-description"></div>
               </div>
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                  <span class="close" onclick="closePopup()">&times;</span>
-                  <div id="project-description"></div>
-                </div>
-              </div>
+            </div>
           </li>
         </ul>
       </section>
